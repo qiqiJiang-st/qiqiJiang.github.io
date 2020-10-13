@@ -1,0 +1,33 @@
+p,ul{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgb(20, 52, 70);
+}
+a{
+    color: chocolate;
+}
+html{
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: lavender;
+}
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: crimson;
+    text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: burlywood;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
