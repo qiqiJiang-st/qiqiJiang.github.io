@@ -1,3 +1,6 @@
+p{
+    text-indent: 2em;
+}
 p,ul{
     font-size: 16px;
     line-height: 2;
@@ -12,13 +15,17 @@ html{
     font-family: sans-serif;
     background-color: lavender;
 }
-h1{
+.brand{
     margin: 0;
     padding: 20px 0;
     color: crimson;
     text-shadow: 3px 3px 1px black;
     font-size: 60px;
     text-align: center;
+}
+h2{
+    margin: 10px;
+    text-align: right;
 }
 img{
     display: block;
@@ -30,4 +37,19 @@ body{
     background-color: burlywood;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+}
+nav{
+    background-color: khaki;
+    border: 2px solid black;
+}
+nav li{
+    display: inline-block;
+}
+nav form{
+    display: inline-block;
+    margin-left: 20px;
+}
+.cite{
+    text-align: right;
+    margin-right: 0px;
 }

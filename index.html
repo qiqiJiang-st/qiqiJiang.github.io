@@ -1,26 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="cmn">
     <head>
-        <link href="styles/style.css" rel="stylesheet">
-        
         <meta charset="utf-8">
-        <title>Dogs</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <title>爱宠一家亲</title>
     </head>
     <body>
-        <p id='user'>Hi user!</p>
-        <h1>柴犬</h1>
-        <img src="images/shiba-inu.jpg" alt="柴犬一只">
-        <p>柴犬是一种<strong>超可爱</strong>的地球生物，它明亮的大眼睛犹如黑洞一般可以吸走人类一天累积的负面情绪...</p>
-        <p>
-            除此之外，还有
+        <header>
+            <h1>宠物之家</h1>
+        </header><!--本网站所有网页的统一主标题-->
+        
+        <nav class="navigator"><!--本站统一的导航栏-->
             <ul>
-                <li><a href="labrador.html">拉布拉多</a></li>
-                <li>拉不多</li>
-                <li>拉得不多</li>
-                <li>just <i>kidding!</i></li>
+                <li><a>HOME</a></li>
+                <li><a href="adoption.html">我要收养</a></li>
+                <li><a href="help.html">发布求助</a></li>
             </ul>
-        </p>
-        <button>切换用户</button>
-        <script src="scripts/main.js" defer></script>
+            <form><!--搜索栏是站点导航的一个非线性方式。-->
+                <input type="search" name="q" placeholder="要搜索的内容">
+                <input type="submit" value="搜索">
+            </form>
+            
+        </nav>
+
+        <main><!--网页主体内容-->
+            <p>这里有最全面的宠物介绍</p>
+        </main>
+
+        <aside>
+            <h2>相关链接</h2>
+            <ul>
+                <li><a href="shiba-inu.html">柴犬</a></li>
+                <li><a href="labrador.html">拉布拉多</a></li>
+            </ul>
+        </aside>
+        <footer>
+            <p>© 2020 山羊果子保留所有权利</p>
+        </footer>
     </body>
+   
+    
 </html>
