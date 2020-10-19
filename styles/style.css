@@ -23,9 +23,18 @@ html{
     font-size: 60px;
     text-align: center;
 }
-h2{
+h1{
+    flex: 5;
+    color:  crimson;
+    text-shadow: 3px 3px 1px black;
+}
+.nation{
+    color: crimson;
+    font-size: 25px;
     margin: 10px;
     text-align: right;
+    font-style: oblique;
+    text-shadow: 1px 1px 0.3px black;
 }
 img{
     display: block;
@@ -33,23 +42,68 @@ img{
 }
 body{
     width: 600px;
+    min-width: 600px;
     margin: 0 auto;
     background-color: burlywood;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
 nav{
-    background-color: khaki;
+    height: 50px;
+    flex:100%;
+    display: flex;
     border: 2px solid black;
 }
+header,nav,article,aside,footer,section{
+    background-color: khaki;
+    padding:1%;
+}
+
+nav ul{
+    padding:0;
+    list-style: none;
+    flex:2;
+    display: flex;
+}
 nav li{
-    display: inline-block;
+    display: inline;
+    text-align: center;
+    flex: 1;
 }
 nav form{
-    display: inline-block;
-    margin-left: 20px;
+    margin:16px 0px ;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    flex:1;
 }
 .cite{
     text-align: right;
     margin-right: 0px;
+}
+header{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+header img{
+    display: block;
+    height: 60px;
+    padding-top: 10px;
+}
+/*||主体布局*/
+main{
+    display: flex;
+    margin-top: 10px;
+}
+aside{
+    flex:1;
+    margin-left: 10px;
+    padding:1%
+}
+main article,section{
+    flex:4;
+}
+footer{
+    margin-top:10px;
 }
