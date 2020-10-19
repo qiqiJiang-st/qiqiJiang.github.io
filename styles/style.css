@@ -41,7 +41,7 @@ img{
     margin: 0 auto;
 }
 body{
-    width: 600px;
+    width: 800px;
     min-width: 600px;
     margin: 0 auto;
     background-color: burlywood;
@@ -54,7 +54,7 @@ nav{
     display: flex;
     border: 2px solid black;
 }
-header,nav,article,aside,footer,section{
+nav,article,aside,footer,section{
     background-color: khaki;
     padding:1%;
 }
